@@ -1,0 +1,24 @@
+{
+  "20230001": {
+    "name": "张三", "major": "软件工程",
+    "courses": [
+      {"course":"数据结构","time":"周一 1-2 节","location":"A3101","teacher":"李老师","start_week":1,"end_week":16},
+      {"course":"操作系统","time":"周三 3-4 节","location":"A3202","teacher":"王老师","start_week":1,"end_week":16},
+      {"course":"大学英语","time":"周五 1-2 节","location":"B2101","teacher":"陈老师","start_week":1,"end_week":12}
+    ]
+  },
+  "20230002": {
+    "name": "李四", "major": "计算机科学与技术",
+    "courses": [
+      {"course":"计算机网络","time":"周二 3-4 节","location":"A3103","teacher":"赵老师","start_week":1,"end_week":16},
+      {"course":"数据库系统","time":"周四 5-6 节","location":"A3201","teacher":"孙老师","start_week":1,"end_week":16}
+    ]
+  },
+  "20230003": {
+    "name": "王五", "major": "信息安全",
+    "courses": [
+      {"course":"密码学","time":"周三 5-6 节","location":"A3301","teacher":"周老师","start_week":1,"end_week":16},
+      {"course":"信息安全导论","time":"周五 3-4 节","location":"A3302","teacher":"吴老师","start_week":1,"end_week":8}
+    ]
+  }
+}

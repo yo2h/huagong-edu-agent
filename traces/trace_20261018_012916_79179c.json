@@ -1,0 +1,27 @@
+{
+  "trace_id": "trace_20261018_012916_79179c",
+  "user_input": "帮我查下课表。",
+  "start_time": "2026-10-18T01:29:16",
+  "end_time": "2026-10-18T01:29:17",
+  "latency_ms": 981,
+  "steps": [
+    {
+      "time": "2026-10-18T01:29:16",
+      "type": "Slots",
+      "content": "{}"
+    },
+    {
+      "time": "2026-10-18T01:29:17",
+      "type": "Final",
+      "content": "请提供你的学号和要查询的周次（例如：学号 20230001，第 8 周）。\n\n以上信息仅供参考，最终以教务处/学院审核为准。\n\n```json\n{\n  \"intent\": \"schedule_query\",\n  \"need_human\": false,\n  \"human_reason\": \"\",\n  \"data\": {}\n}\n```",
+      "step": 1,
+      "latency_ms": 981
+    }
+  ],
+  "final_answer": "请提供你的学号和要查询的周次（例如：学号 20230001，第 8 周）。\n\n以上信息仅供参考，最终以教务处/学院审核为准。\n\n```json\n{\n  \"intent\": \"schedule_query\",\n  \"need_human\": false,\n  \"human_reason\": \"\",\n  \"data\": {}\n}\n```",
+  "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 74,
+    "total_tokens": 1590
+  }
+}

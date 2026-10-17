@@ -1,0 +1,27 @@
+{
+  "trace_id": "trace_20261018_005642_035b97",
+  "user_input": "我想申请校园婚礼场地，怎么办？",
+  "start_time": "2026-10-18T00:56:42",
+  "end_time": "2026-10-18T00:56:43",
+  "latency_ms": 861,
+  "steps": [
+    {
+      "time": "2026-10-18T00:56:42",
+      "type": "Slots",
+      "content": "{\"student_id\": \"00000000\", \"week\": 8, \"building\": \"A3\", \"day\": \"周三\", \"period\": \"下午\"}"
+    },
+    {
+      "time": "2026-10-18T00:56:43",
+      "type": "Final",
+      "content": "未检索到该事项的指南。校园婚礼场地申请不属于教务办事范围，建议你咨询学校后勤或场地管理部门。\n\n以上信息仅供参考，最终以教务处/学院审核为准。\n\n```json\n{\n  \"intent\": \"guide_query\",\n  \"need_human\": false,\n  \"human_reason\": \"\",\n  \"data\": {\n    \"guide\": {}\n  }\n}\n```",
+      "step": 1,
+      "latency_ms": 854
+    }
+  ],
+  "final_answer": "未检索到该事项的指南。校园婚礼场地申请不属于教务办事范围，建议你咨询学校后勤或场地管理部门。\n\n以上信息仅供参考，最终以教务处/学院审核为准。\n\n```json\n{\n  \"intent\": \"guide_query\",\n  \"need_human\": false,\n  \"human_reason\": \"\",\n  \"data\": {\n    \"guide\": {}\n  }\n}\n```",
+  "usage": {
+    "prompt_tokens": 3002,
+    "completion_tokens": 80,
+    "total_tokens": 3082
+  }
+}

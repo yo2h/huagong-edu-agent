@@ -1,0 +1,27 @@
+{
+  "trace_id": "trace_20261018_005640_b65dd0",
+  "user_input": "学号 00000000，帮我查第 8 周课表。",
+  "start_time": "2026-10-18T00:56:40",
+  "end_time": "2026-10-18T00:56:41",
+  "latency_ms": 1206,
+  "steps": [
+    {
+      "time": "2026-10-18T00:56:40",
+      "type": "Slots",
+      "content": "{\"student_id\": \"00000000\", \"week\": 8, \"building\": \"A3\", \"day\": \"周三\", \"period\": \"下午\"}"
+    },
+    {
+      "time": "2026-10-18T00:56:41",
+      "type": "Final",
+      "content": "未查询到学号 00000000 的课表信息，请核对学号是否正确后重试。\n\n以上信息仅供参考，最终以教务处/学院审核为准。\n\n```json\n{\n  \"intent\": \"schedule_query\",\n  \"need_human\": false,\n  \"human_reason\": \"\",\n  \"data\": {\n    \"schedule\": {}\n  }\n}\n```",
+      "step": 1,
+      "latency_ms": 1205
+    }
+  ],
+  "final_answer": "未查询到学号 00000000 的课表信息，请核对学号是否正确后重试。\n\n以上信息仅供参考，最终以教务处/学院审核为准。\n\n```json\n{\n  \"intent\": \"schedule_query\",\n  \"need_human\": false,\n  \"human_reason\": \"\",\n  \"data\": {\n    \"schedule\": {}\n  }\n}\n```",
+  "usage": {
+    "prompt_tokens": 2719,
+    "completion_tokens": 80,
+    "total_tokens": 2799
+  }
+}
